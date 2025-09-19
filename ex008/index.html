@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <title>Formatação de Textos(Negrito e Itálico)</title>
+    
+    <style>
+        .marcar {
+            background-color: blueviolet;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Existem 2 formas de criar uma frase em negrito, uma de forma semântica e outra de forma não semântica, confira:</p>
+
+    <p>
+        1ª <b>Negrito</b>(Não-semântica)
+    </p> <!--Aqui ele deu uma forma à ela-->
+
+    <p>
+        2ª <Strong>Negrito</Strong>(Semântico)
+    </p> <!--Dá um sentido à frase, declarando que existe algo na frase que tem um destaque que é "strong"-->
+
+    <h2>Itálico / Ênfase</h2>
+
+    <p>
+        1ª<i> Itálico</i>(Não-semântica)
+    </p>
+
+    </p>
+        2ª<em> Itálico</em>(Semântico)
+    </p> <!--<em> == Emphasis == Ênfase-->
+    
+    <!--Marcar texto(USANDO HTML)-->
+    <h2>Marcar texto em HTML e CSS</h2>
+    <p>
+        Quero marcar esse texto, <mark>como faço isso?</mark>(HTML)
+    </p>
+
+    <p>
+        Agora estou usando as CSS para marcar meu texto, <mark style="background-color: darkcyan;"> como fazer isso?</mark>(CSS)
+    </p>
+
+    <p>
+        Se quiser marcar vários textos sem precisar repetir o comando mark em todo parágrafo, basta usar um seletor
+    </p>
+    <!--SELETOR-->
+    <!--Usando uma classe em CSS pra diferenciar o seletor mark do HTML-->
+    
+    
+    <p>
+        <mark class = "marcar">ABC</mark> <mark class = "marcar">DEFG</mark> <mark class = "marcar">123</mark>
+    </p>
+    
+    <h2>
+        Texto Deletado
+    </h2>
+
+    <p>
+        Esse texto é um exemplo que eu posso passar um <del>risco</del> em algo
+    </p>
+
+    <h2>Sublinhado (HTML/CSS)</h2>
+
+    <p>
+        Eu vou <ins>sublinhar</ins> (HTML)
+    </p>
+
+    <p>
+        Eu vou <u>sublinhar</u> (CSS)
+    </p>
+
+    <h2>
+        Texto Sobrescrito
+    </h2>
+
+    <p>
+        RESULTADO = x<sup>2</sup>
+    </p>
+
+    <p>
+        ÁGUA = H<sub>2</sub>O
+    </p>
+</body>
+</html>
